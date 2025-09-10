@@ -1,0 +1,23 @@
+/* Navbar stil */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Jumbotron stil */
+section.bg-light {
+  background: linear-gradient(to right, #355592, #4a6fa5);
+  color: white;
+}
+
+/* Card stil */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.card img {
+      height: 200px;
+      object-fit: cover; 
+    }
